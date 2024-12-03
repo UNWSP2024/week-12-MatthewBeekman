@@ -15,7 +15,7 @@ def calculate_total():
             total += services[service]
     total_label.config(text=f"Total Charges: ${total:.2f}")
 root = tk.Tk()
-root.title("Joe's Automotive - Service Selection")
+root.title("Beekman's Automotive - Service Selection")
 checkbuttons_vars = {}
 for service, price in services.items():
     var = tk.BooleanVar()
